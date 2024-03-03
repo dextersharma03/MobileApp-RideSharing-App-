@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgpic"
+    tools:context="com.uber.app.MainActivity">
+
+    <Button
+        android:id="@+id/customer"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="131dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="@string/i_m_a_customer"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/driver"
+        android:layout_alignLeft="@id/driver"/>
+
+    <Button
+        android:id="@+id/driver"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@android:color/background_light"
+        android:text="@string/i_m_a_driver"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:layout_above="@+id/customer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+</RelativeLayout>

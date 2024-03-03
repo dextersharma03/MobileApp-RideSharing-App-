@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TakeMeHome</string>
+    <string name="title_activity_driver_map">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="take_me_home">Take Me Home</string>
+    <string name="loading">Loading...</string>
+    <string name="i_m_a_customer">I\'m a Customer</string>
+    <string name="i_m_a_driver">I\'m a Driver</string>
+    <string name="driver_login">Driver Login</string>
+    <string name="email_address">&#160;Email</string>
+    <string name="password">&#160;Password</string>
+    <string name="login">Login</string>
+    <string name="registration">Registration</string>
+    <string name="customer_login">Customer Login</string>
+</resources>
